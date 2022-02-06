@@ -1,0 +1,27 @@
+.navbar {
+    height: 3.3rem;
+    background: linear-gradient(270deg, #0A1210 0%, #0D2324 100%);
+    .navbar-nav {
+        span {
+            color: rgba(white, 0.9);
+            font-family: 'Roboto';
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+.nav-logo {
+    transform: scale(0.6);
+    pointer-events: none;
+}
+.icon-bar {
+    width: 3rem;
+    height: 0.1rem;
+    margin: 0.6rem;
+    background-color: #d1d1d1;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px;
+    border-radius: 0.6rem;
+}
